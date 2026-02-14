@@ -1,0 +1,124 @@
+<mxfile host="65bd71144e">
+    <diagram id="TKdFlYrqH_Ta__Kl1say" name="Page-1">
+        <mxGraphModel dx="2073" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="E_PACIENTE" value="PACIENTES" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="120" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="E_CITA" value="CITAS" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="120" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="E_MEDICO" value="MÉDICOS" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="920" y="400" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="E_ESPEC" value="ESPECIALIDADES" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="120" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="E_FACTURA" value="FACTURAS" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="430" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="R_AGENDA" value="Agenda" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="110" width="110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="R_ATIENDE" value="Atiende" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="935" y="230" width="110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="R_CORRESP" value="Corresponde" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="105" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="R_GENERA" value="Genera" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="95" y="270" width="110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="R_FACTPOR" value="FacturaPor" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="410" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_PAC_ID" value="Código" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-10" y="80" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_PAC_NOM" value="Nombre" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="50" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_PAC_DOC" value="Documento" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="70" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_CITA_ID" value="Código" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="60" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_CITA_FECHA" value="FechaHora" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="60" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_CITA_MODAL" value="Modalidad" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="180" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_CITA_EST" value="Estado" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="200" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_MED_ID" value="Código" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="440" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_MED_NOM" value="Nombre" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="930" y="480" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_MED_REG" value="RegistroProf." style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="470" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_ESP_ID" value="Código" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="70" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_ESP_NOM" value="Nombre" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="990" y="65" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_FAC_ID" value="Código" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="470" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_FAC_FECHA" value="FechaEmisión" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="500" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_FAC_TOTAL" value="Total" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="490" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A_FP_METODO" value="MétodoPago" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="490" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="er1" value="(1)" style="endArrow=none;startArrow=none;strokeWidth=2;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="E_PACIENTE" target="R_AGENDA">
+                    <mxGeometry x="-0.0072" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="er2" value="(1,n)" style="endArrow=none;startArrow=none;strokeWidth=2;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="E_CITA" target="R_AGENDA">
+                    <mxGeometry x="0.0019" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="er3" value="(1)" style="endArrow=none;startArrow=none;strokeWidth=2;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="E_MEDICO" target="R_ATIENDE">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="er4" value="(1,n)" style="endArrow=none;startArrow=none;strokeWidth=2;html=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="E_ESPEC" target="R_ATIENDE">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="er5" value="(1)" style="endArrow=none;startArrow=none;strokeWidth=2;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="E_ESPEC" target="R_CORRESP">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="er6" value="(1,n)" style="endArrow=none;startArrow=none;strokeWidth=2;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="E_CITA" target="R_CORRESP">
+                    <mxGeometry x="0.0008" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="er7" value="(1)" style="endArrow=none;startArrow=none;strokeWidth=2;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="E_PACIENTE" target="R_GENERA">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="er8" value="(1,n)" style="endArrow=none;startArrow=none;strokeWidth=2;html=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="E_FACTURA" target="R_GENERA">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="er9" value="(1)" style="endArrow=none;startArrow=none;strokeWidth=2;html=1;labelBackgroundColor=#ffffff;dashed=1;" edge="1" parent="1" source="E_CITA" target="R_FACTPOR">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="er10" value="(0,1)" style="endArrow=none;startArrow=none;strokeWidth=2;html=1;labelBackgroundColor=#ffffff;dashed=1;" edge="1" parent="1" source="E_FACTURA" target="R_FACTPOR">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
