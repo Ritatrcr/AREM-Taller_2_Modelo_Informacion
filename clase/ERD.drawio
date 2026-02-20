@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="zPa4QXzRaXDNpI_FEN7t" name="Page-1">
-        <mxGraphModel dx="378" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1505" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -8,7 +8,7 @@
                     <mxGeometry x="60" y="80" width="260" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="medico" value="&lt;b&gt;MÉDICO&lt;/b&gt;&lt;br/&gt;PK id_medico&lt;br/&gt;nombre&lt;br/&gt;registro_profesional&lt;br/&gt;telefono&lt;br/&gt;email" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeWidth=1;" vertex="1" parent="1">
-                    <mxGeometry x="740" y="80" width="260" height="170" as="geometry"/>
+                    <mxGeometry x="740" y="540" width="260" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="especialidad" value="&lt;b&gt;ESPECIALIDAD&lt;/b&gt;&lt;br/&gt;PK id_especialidad&lt;br/&gt;nombre&lt;br/&gt;descripcion" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeWidth=1;" vertex="1" parent="1">
                     <mxGeometry x="740" y="300" width="260" height="140" as="geometry"/>
@@ -22,10 +22,10 @@
                 <mxCell id="rel_paciente_cita" value="1 a N" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1" source="paciente" target="cita">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="rel_medico_cita" value="1 a N" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1" source="medico" target="cita">
+                <mxCell id="rel_medico_cita" value="1 a N" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1" source="medico" target="especialidad">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="rel_especialidad_cita" value="1 a N" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1" source="especialidad" target="cita">
+                <mxCell id="rel_especialidad_cita" value="N a 1" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1" source="especialidad" target="cita">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="rel_paciente_factura" value="1 a N" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1" source="paciente" target="factura">
