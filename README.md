@@ -1,90 +1,108 @@
-# 🛠️ Taller 2: Modelo de Información y Diagrama de Contexto
+# 📄 Informe Técnico del Taller
 
-## 🎯 Objetivo
+## 🔖 Taller 2 – Modelo de Información y Diagrama de Contexto
 
-Modelar las entidades principales del dominio del cliente y los flujos de información entre actores y sistemas, mediante un modelo entidad-relación (ERD) y un diagrama de contexto de negocio.
-
----
-
-## 🏥 Caso base de referencia: Clínica Salud Viva
-
-Durante este taller, todos los equipos trabajarán en clase con un caso base común antes de aplicarlo a su cliente real.
-
-## 🧠 Contexto
-
-La Clínica Salud Viva gestiona diversos flujos de información relacionados con pacientes, citas, médicos, facturación y servicios médicos. Estos datos están organizados en múltiples sistemas que deben interoperar entre sí, incluyendo un ERP clínico, una base de datos central de pacientes, y sistemas de terceros como aseguradoras. La correcta estructuración de las entidades de información y su contexto de operación es clave para lograr una arquitectura alineada con las necesidades clínicas, administrativas y regulatorias del sector salud.
-
-**Descripción del caso:**
-- Clínica Salud Viva ofrece servicios médicos presenciales y virtuales.
-- El sistema permite a los pacientes agendar citas, los médicos gestionar su agenda, y el personal validar datos con aseguradoras.
-
-**Elementos para modelar en clase:**
-- **Entidades principales:** Paciente, Cita, Médico, Especialidad, Factura
-- **Relaciones clave:** Un paciente puede tener muchas citas; cada cita se asocia a un médico y una especialidad.
-- **Diagrama de contexto:** Incluye actores (paciente, médico, asistente), sistemas (ERP, agendamiento, notificador), y flujos de datos.
+## 👥 Integrantes del equipo
+- Rita Trindade da Cruz (ritatrcr)
+- Brandon Merchan Sandoval (merchito12)
+- Daniel Felipe Forero Sánchez (DanielForero14)
 
 ---
 
-## 🧪 Parte 1: Trabajo en Clase
+## 🧠 Descripción general del trabajo
+El objetivo de este taller fue modelar las **entidades principales de información** y los
+**flujos de datos** involucrados en un dominio de negocio, mediante la elaboración de un
+**Modelo Entidad–Relación (ERD)** y un **Diagrama de Contexto de Negocio**.
 
-Durante la clase se espera que el equipo:
+El trabajo se desarrolló tomando como referencia el caso base **:contentReference[oaicite:0]{index=0}**, el cual fue trabajado inicialmente en clase para
+comprender el dominio, identificar actores, sistemas y relaciones de información, y
+posteriormente servir como base para la aplicación de los conceptos a un cliente real.
 
-- Modele un ERD simple con las entidades del caso base y sus relaciones.
-- Elabore un primer borrador del diagrama de contexto de negocio.
-- Identifique qué información fluye entre actores y qué sistemas intervienen.
-- Use herramientas como draw.io o papel para registrar la idea inicial.
-
----
-
-## 🧠 Parte 2: Aplicación al Cliente Real
-
-Después de la clase, el equipo debe:
-
-- Adaptar el modelo de información al dominio del cliente real asignado.
-- Elaborar un modelo ER limpio y un diagrama de contexto ajustado.
-- Redactar un informe explicando las decisiones tomadas.
-- Complementar con una investigación sobre ERD y contexto en casos reales de la industria.
+Esta aproximación permitió comprender la importancia de una correcta estructuración de
+la información como punto de partida para el diseño de arquitecturas empresariales
+alineadas con las necesidades del negocio y del usuario.
 
 ---
 
-## 📁 Estructura esperada del repositorio
+## 🔧 Proceso de desarrollo
+El desarrollo del taller inició con el análisis del caso base de la Clínica Salud Viva,
+identificando las entidades principales del dominio, tales como pacientes, citas, médicos,
+especialidades y facturación, así como las relaciones existentes entre ellas.
 
-```
-taller-02-modelo-informacion/
-├── README.md
-├── clase/
-│   ├── modelo-er-borrador.drawio
-│   ├── contexto-borrador.drawio
-│   └── notas.md
-├── entrega/
-│   ├── modelo-final-er.drawio
-│   ├── diagrama-contexto-final.drawio
-│   ├── informe.md
-│   └── referencias.md
-```
+Durante la sesión de clase se construyó un **primer borrador del modelo entidad–relación**
+y un **borrador del diagrama de contexto**, los cuales permitieron visualizar de manera
+general cómo fluye la información entre los actores y los sistemas involucrados.
 
----
+Posteriormente, estos modelos fueron refinados fuera de clase, ajustando cardinalidades,
+atributos y relaciones, hasta obtener un **modelo ER limpio y consistente**, junto con un
+**diagrama de contexto de negocio** que representa de forma clara los límites del sistema,
+los actores externos y los flujos de información.
 
-## 📤 Entregables
-
-- Modelo ER final (`modelo-final-er.drawio`)
-- Diagrama de contexto final (`diagrama-contexto-final.drawio`)
-- Informe técnico (`informe.md`)
-- Documento de investigación y referencias (`referencias.md`)
+Como herramienta principal se utilizó **draw.io**, lo que facilitó la iteración y mejora
+continua de los diagramas.
 
 ---
 
-## 📊 Rúbrica de Evaluación
+## 🧩 Análisis del modelo propuesto
 
-| Criterio                            | Excelente (5)                                                        | Aceptable (3) / Insuficiente (1–2)                        |
-|-------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------|
-| Modelo ER del caso base             | Diagrama coherente, con relaciones claras y alineado con el caso      | Relaciones poco claras o errores estructurales             |
-| Diagrama de contexto funcional      | Conexiones correctas entre actores, sistemas y datos                  | Faltan actores clave o flujos mal definidos                |
-| Aplicación al cliente real          | Buena adaptación con diferencias justificadas                         | No refleja el dominio real del cliente                     |
-| Investigación complementaria        | Aplica teoría o ejemplos reales para enriquecer la entrega            | Pobremente documentada o sin conexión                      |
+### 📊 Modelo de información (ERD)
+El modelo entidad–relación propuesto se estructura a partir de:
+- Entidades principales claramente identificadas.
+- Claves primarias y foráneas para garantizar la integridad de los datos.
+- Relaciones con cardinalidades definidas según las reglas del negocio.
+- Atributos representativos del contexto clínico y administrativo.
+
+Este modelo permite representar de manera coherente la información necesaria para soportar
+los procesos de agendamiento, atención médica y facturación.
+
+### 🌐 Diagrama de contexto de negocio
+El diagrama de contexto identifica:
+- Actores principales (paciente, médico, asistente).
+- Sistemas internos (sistema de agendamiento, ERP clínico).
+- Sistemas externos (aseguradoras, servicios de notificación).
+- Flujos de información que conectan actores y sistemas.
+
+Este diagrama permite comprender el alcance del sistema y sus interacciones con el entorno.
 
 ---
 
-## ✅ Licencia
+## 📈 Diagramas entregados
+- Modelo Entidad–Relación (ERD) – Caso base
+- Diagrama de Contexto de Negocio – Caso base
 
-Este taller hace parte del curso de Arquitectura Empresarial - Universidad de La Sabana. Uso académico bajo licencia MIT.
+*(Los diagramas finales se encuentran en la carpeta `/entrega` del repositorio).*
+
+---
+
+## 🗂️ Organización del repositorio
+El repositorio se encuentra organizado de la siguiente manera:
+- **/clase**: contiene los borradores y notas generadas durante la sesión de clase.
+- **/entrega**: contiene los diagramas finales, el informe y las referencias utilizadas.
+
+Esta organización permite evidenciar tanto el proceso de construcción como la entrega
+final del taller.
+
+---
+
+## 🔍 Investigación complementaria
+### Tema investigado
+Modelado de información mediante diagramas entidad–relación y su uso en la definición del
+contexto de sistemas en arquitectura empresarial.
+
+### Resumen
+El modelado de información a través de ERD es una técnica fundamental para estructurar los
+datos de un sistema de manera coherente y consistente. Complementariamente, el diagrama de
+contexto permite delimitar el sistema y entender cómo interactúa con actores y sistemas
+externos.
+
+La combinación de ambos artefactos facilita la toma de decisiones de diseño y sirve como
+base para etapas posteriores del desarrollo y la arquitectura de soluciones.
+
+---
+
+## 📚 Referencias
+- [1] Universidad de La Sabana. Material de clase – Arquitectura Empresarial. s.f.  
+- [2] Object Management Group (OMG). Entity-Relationship Model. s.f.  
+- [3] Chakray Consulting. Modelado de datos y diagramas ER. s.f.
+
+---
