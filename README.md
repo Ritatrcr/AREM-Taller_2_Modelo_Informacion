@@ -50,21 +50,37 @@ Para este caso se desarrollaron:
 
 ## 📂 Organización del repositorio
 /
+
 ├── README.md
+
 ├── Imagenes/
+
 │ ├── ERD_CITAS.png
+
 │ ├── ERM_CITAS.png
+
 │ ├── ERD_AIRSOFT.png
+
 │ └── ERM_AIRSOFT.png
+
 ├── clase/
+
 │ ├── ERD.drawio
+
 │ ├── ERM.drawio
+
 │ └── notas.md
+
 └── entrega/
+
 ├── ERD.drawio
+
 ├── ERM.drawio
+
 ├── informe_taller.md
+
 └── referencias.md
+
 
 ### 📁 Carpeta `clase`
 Contiene los **borradores y notas generadas durante la sesión de clase**, correspondientes
