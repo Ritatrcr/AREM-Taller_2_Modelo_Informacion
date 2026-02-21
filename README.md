@@ -79,6 +79,21 @@ Incluye imágenes de los diagramas para facilitar su visualización y documentac
 
 ---
 
+## 🔍 Investigación complementaria
+
+### 📌 Tema investigado
+Modelado de información mediante diagramas entidad–relación.
+
+### 📖 Resumen
+El modelado de información a través de diagramas entidad–relación (ERD) es una técnica
+fundamental para estructurar los datos de un sistema de manera coherente y consistente,
+permitiendo representar entidades, atributos y relaciones de forma clara.
+
+Estos modelos facilitan la comprensión del dominio del negocio, sirven como base para la
+definición de bases de datos y apoyan la delimitación del alcance de los sistemas dentro de
+una arquitectura empresarial. Un modelo de información bien construido reduce ambigüedades
+y mejora la toma de decisiones en etapas posteriores del diseño de soluciones.
+
 ## 🧰 Herramientas utilizadas
 - draw.io  
 - Git y GitHub  
