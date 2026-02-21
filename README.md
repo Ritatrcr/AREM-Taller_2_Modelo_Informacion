@@ -1,4 +1,4 @@
-# 📄 Taller 2 – Modelo de Información y Diagrama de Contexto
+# 📄 Taller 2 – Modelo de Información
 **Curso:** Arquitectura Empresarial (AREM)  
 **Universidad:** Universidad de La Sabana  
 
@@ -13,9 +13,8 @@
 
 ## 🎯 Objetivo del taller
 El objetivo de este taller es comprender y aplicar los conceptos básicos del **modelado de
-información**, mediante la elaboración de un **Modelo Entidad–Relación (ERM / ERD)** y un
-**Diagrama de Contexto de Negocio**, como base para el diseño de soluciones alineadas al
-negocio.s
+información**, mediante la elaboración de un **Modelo Entidad–Relación (ERM / ERD)**, como base para el diseño de soluciones alineadas al
+negocio.
 
 El taller se divide en dos partes:
 1. **Trabajo en clase**, usando un caso base.
@@ -28,14 +27,12 @@ Durante la sesión de clase se trabajó sobre el caso base **:contentReference[o
 - Identificar las entidades principales del dominio.
 - Definir relaciones y cardinalidades.
 - Construir un primer modelo de información.
-- Elaborar un borrador del diagrama de contexto de negocio.
 
 Como resultado se obtuvieron:
+
 - Un **ERM de citas médicas**.
 - Un **ERD de citas médicas**.
-- Un **diagrama de contexto preliminar**.
 
-Estos artefactos representan el trabajo conceptual realizado en clase.
 
 ---
 
@@ -47,8 +44,7 @@ Para este caso se desarrollaron:
 - Un **Modelo Entidad–Relación (ERM)** adaptado al negocio Airsoft.
 - Un **Modelo Entidad–Relación lógico (ERD)** con claves primarias y foráneas.
 
-Este ejercicio permitió contrastar el caso base con un dominio diferente y más específico,
-fortaleciendo la comprensión del modelado de información.
+
 
 ---
 
@@ -85,7 +81,6 @@ Incluye imágenes de los diagramas para facilitar su visualización y documentac
 
 ## 🧰 Herramientas utilizadas
 - draw.io  
-- Markdown  
 - Git y GitHub  
 
 ---
