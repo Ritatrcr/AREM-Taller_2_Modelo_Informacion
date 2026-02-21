@@ -23,7 +23,7 @@ El taller se divide en dos partes:
 ---
 
 ## 🏥 Parte 1 – Caso base
-Durante la sesión de clase se trabajó sobre el caso base **:contentReference[oaicite:0]{index=0}**, con el fin de:
+Durante la sesión de clase se trabajó sobre el caso base **Clinica**, con el fin de:
 - Identificar las entidades principales del dominio.
 - Definir relaciones y cardinalidades.
 - Construir un primer modelo de información.
