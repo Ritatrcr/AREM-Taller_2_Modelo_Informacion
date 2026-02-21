@@ -1,46 +1,46 @@
 <mxfile host="65bd71144e">
     <diagram id="XhU3OpPlm_4tW1Qui8Bj" name="Page-1">
-        <mxGraphModel dx="734" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1164" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="T_JUGADOR" value="&lt;b&gt;JUGADOR&lt;/b&gt;&lt;br/&gt;PK id_jugador&lt;br/&gt;nombre&lt;br/&gt;correo&lt;br/&gt;celular&lt;br/&gt;edad" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="T_JUGADOR" value="&lt;b&gt;JUGADORES&lt;/b&gt;&lt;br&gt;PK id_jugador&lt;br&gt;nombre&lt;br&gt;correo&lt;br&gt;celular&lt;br&gt;edad" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
                     <mxGeometry x="30" y="70" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="T_PARTIDA" value="&lt;b&gt;PARTIDA&lt;/b&gt;&lt;br/&gt;PK id_partida&lt;br/&gt;FK id_campo&lt;br/&gt;fecha_hora&lt;br/&gt;modalidad&lt;br/&gt;num_jugadores" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="T_PARTIDA" value="&lt;b&gt;PARTIDAS&lt;/b&gt;&lt;br&gt;PK id_partida&lt;br&gt;FK id_campo&lt;br&gt;fecha_hora&lt;br&gt;modalidad&lt;br&gt;num_jugadores" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
                     <mxGeometry x="435" y="65" width="120" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="T_CAMPO" value="&lt;b&gt;CAMPO&lt;/b&gt;&lt;br/&gt;PK id_campo&lt;br/&gt;nombre&lt;br/&gt;direccion" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="T_CAMPO" value="&lt;b&gt;CAMPOS&lt;/b&gt;&lt;br&gt;PK id_campo&lt;br&gt;nombre&lt;br&gt;dirección" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
                     <mxGeometry x="430" y="280" width="100" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="T_RESERVA" value="&lt;b&gt;RESERVA&lt;/b&gt;&lt;br/&gt;PK id_reserva&lt;br/&gt;FK id_jugador&lt;br/&gt;FK id_partida&lt;br/&gt;estado" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="T_RESERVA" value="&lt;b&gt;RESERVAS&lt;/b&gt;&lt;br&gt;PK id_reserva&lt;br&gt;FK id_jugador&lt;br&gt;FK id_partida&lt;br&gt;estado" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
                     <mxGeometry x="230" y="75" width="140" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="T_PAGO" value="&lt;b&gt;PAGO&lt;/b&gt;&lt;br/&gt;PK id_pago&lt;br/&gt;FK id_reserva&lt;br/&gt;monto&lt;br/&gt;metodo_pago" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="T_PAGO" value="&lt;b&gt;PAGOS&lt;/b&gt;&lt;br&gt;PK id_pago&lt;br&gt;FK id_reserva&lt;br&gt;monto&lt;br&gt;método_pago" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
                     <mxGeometry x="220" y="330" width="140" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="T_EQUIPAMIENTO" value="&lt;b&gt;EQUIPAMIENTO&lt;/b&gt;&lt;br/&gt;PK id_equipamiento&lt;br/&gt;tipo" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="T_EQUIPAMIENTO" value="&lt;b&gt;EQUIPAMIENTOS&lt;/b&gt;&lt;br&gt;PK id_equipamiento&lt;br&gt;tipo" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
                     <mxGeometry x="375" y="630" width="130" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="T_EQUIPO" value="&lt;b&gt;EQUIPO&lt;/b&gt;&lt;br/&gt;PK id_equipo&lt;br/&gt;nombre" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="T_EQUIPO" value="&lt;b&gt;EQUIPOS&lt;/b&gt;&lt;br&gt;PK id_equipo&lt;br&gt;nombre" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
                     <mxGeometry x="30" y="470" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="T_JUGADOR_EQUIPO" value="&lt;b&gt;JUGADOR_EQUIPO&lt;/b&gt;&lt;br/&gt;PK,FK id_jugador&lt;br/&gt;PK,FK id_equipo" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
-                    <mxGeometry x="15" y="290" width="150" height="70" as="geometry"/>
+                <mxCell id="T_JUGADOR_EQUIPO" value="&lt;b&gt;JUGADORES_EQUIPOS&lt;/b&gt;&lt;br&gt;PK,FK id_jugador&lt;br&gt;PK,FK id_equipo" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="7.5" y="290" width="165" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="T_ADMINISTRADOR" value="&lt;b&gt;ADMINISTRADOR&lt;/b&gt;&lt;br/&gt;PK id_administrador&lt;br/&gt;nombre" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="T_ADMINISTRADOR" value="&lt;b&gt;ADMINISTRADORES&lt;/b&gt;&lt;br&gt;PK id_administrador&lt;br&gt;nombre" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
                     <mxGeometry x="690" y="240" width="140" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="T_PARTIDA_ADMIN" value="&lt;b&gt;PARTIDA_ADMIN&lt;/b&gt;&lt;br/&gt;PK,FK id_partida&lt;br/&gt;PK,FK id_administrador" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
-                    <mxGeometry x="675" y="90" width="170" height="80" as="geometry"/>
+                <mxCell id="T_PARTIDA_ADMIN" value="&lt;b&gt;PARTIDAS_ADMINISTRADORES&lt;/b&gt;&lt;br&gt;PK,FK id_partida&lt;br&gt;PK,FK id_administrador" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="675" y="90" width="215" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="T_ARBITRO" value="&lt;b&gt;ARBITRO&lt;/b&gt;&lt;br/&gt;PK id_arbitro&lt;br/&gt;nombre" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="T_ARBITRO" value="&lt;b&gt;ÁRBITROS&lt;/b&gt;&lt;br&gt;PK id_árbitro&lt;br&gt;nombre" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
                     <mxGeometry x="555" y="500" width="120" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="T_PARTIDA_ARBITRO" value="&lt;b&gt;PARTIDA_ARBITRO&lt;/b&gt;&lt;br/&gt;PK,FK id_partida&lt;br/&gt;PK,FK id_arbitro" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="T_PARTIDA_ARBITRO" value="&lt;b&gt;PARTIDAS_ÁRBITROS&lt;/b&gt;&lt;br&gt;PK,FK id_partida&lt;br&gt;PK,FK id_árbitro" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
                     <mxGeometry x="540" y="330" width="150" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="T_ALQUILER" value="&lt;b&gt;ALQUILER&lt;/b&gt;&lt;br/&gt;PK id_alquiler&lt;br/&gt;FK id_reserva&lt;br/&gt;FK id_equipamiento&lt;br/&gt;cantidad" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="T_ALQUILER" value="&lt;b&gt;ALQUILERES&lt;/b&gt;&lt;br&gt;PK id_alquiler&lt;br&gt;FK id_reserva&lt;br&gt;FK id_equipamiento&lt;br&gt;cantidad" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeColor=#000000;fillColor=#ffffff;strokeWidth=1;" vertex="1" parent="1">
                     <mxGeometry x="370" y="450" width="140" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="E_CAMPO_PARTIDA" value="(0,n)" style="endArrow=none;startArrow=none;html=1;strokeWidth=1;" edge="1" parent="1" source="T_CAMPO" target="T_PARTIDA">
@@ -116,12 +116,12 @@
                 <mxCell id="E_JUGADOR_JE" style="endArrow=none;startArrow=none;html=1;strokeWidth=1;" edge="1" parent="1" source="T_JUGADOR" target="T_JUGADOR_EQUIPO">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="(0,n)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E_JUGADOR_JE">
+                <mxCell id="16" value="(1,n)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E_JUGADOR_JE">
                     <mxGeometry x="-0.5133" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="17" value="(1,1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E_JUGADOR_JE">
+                <mxCell id="17" value="(1,n)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E_JUGADOR_JE">
                     <mxGeometry x="0.5533" y="3" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
@@ -134,7 +134,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="(0,n)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E_EQUIPO_JE">
+                <mxCell id="19" value="(1,n)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E_EQUIPO_JE">
                     <mxGeometry x="-0.5697" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
