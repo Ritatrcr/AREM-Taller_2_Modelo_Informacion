@@ -1,38 +1,73 @@
 <mxfile host="65bd71144e">
     <diagram id="zPa4QXzRaXDNpI_FEN7t" name="Page-1">
-        <mxGraphModel dx="1804" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1310" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="paciente" value="&lt;b&gt;PACIENTE&lt;/b&gt;&lt;br/&gt;PK id_paciente&lt;br/&gt;nombre&lt;br/&gt;documento&lt;br/&gt;fecha_nacimiento&lt;br/&gt;telefono&lt;br/&gt;email&lt;br/&gt;direccion" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeWidth=1;" parent="1" vertex="1">
+                <mxCell id="paciente" value="&lt;b&gt;PACIENTES&lt;/b&gt;&lt;br&gt;PK id_paciente&lt;br&gt;nombre&lt;br&gt;documento&lt;br&gt;fecha_nacimiento&lt;br&gt;telefono&lt;br&gt;email&lt;br&gt;direccion" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeWidth=1;" parent="1" vertex="1">
                     <mxGeometry x="60" y="80" width="260" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="medico" value="&lt;b&gt;MÉDICO&lt;/b&gt;&lt;br/&gt;PK id_medico&lt;br/&gt;nombre&lt;br/&gt;registro_profesional&lt;br/&gt;telefono&lt;br/&gt;email" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeWidth=1;" parent="1" vertex="1">
-                    <mxGeometry x="740" y="540" width="260" height="170" as="geometry"/>
+                <mxCell id="medico" value="&lt;b&gt;MÉDICOS&lt;/b&gt;&lt;br&gt;PK id_medico&lt;br&gt;nombre&lt;br&gt;registro_profesional&lt;br&gt;telefono&lt;br&gt;email" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="350" width="260" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="especialidad" value="&lt;b&gt;ESPECIALIDAD&lt;/b&gt;&lt;br/&gt;PK id_especialidad&lt;br/&gt;nombre&lt;br/&gt;descripcion" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeWidth=1;" parent="1" vertex="1">
-                    <mxGeometry x="740" y="280" width="260" height="140" as="geometry"/>
+                <mxCell id="especialidad" value="&lt;b&gt;ESPECIALIDADES&lt;/b&gt;&lt;br&gt;PK id_especialidad&lt;br&gt;nombre&lt;br&gt;descripcion" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="830" y="80" width="260" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="cita" value="&lt;b&gt;CITA&lt;/b&gt;&lt;br/&gt;PK id_cita&lt;br/&gt;FK id_paciente&lt;br/&gt;FK id_medico&lt;br/&gt;FK id_especialidad&lt;br/&gt;fecha_hora&lt;br/&gt;modalidad (presencial/virtual)&lt;br/&gt;estado (programada/cancelada/atendida)&lt;br/&gt;motivo" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeWidth=1;" parent="1" vertex="1">
-                    <mxGeometry x="400" y="210" width="280" height="250" as="geometry"/>
+                <mxCell id="cita" value="&lt;b&gt;CITAS&lt;/b&gt;&lt;br&gt;PK id_cita&lt;br&gt;FK id_paciente&lt;br&gt;FK id_medico&lt;br&gt;FK id_especialidad&lt;br&gt;fecha_hora&lt;br&gt;modalidad (presencial/virtual)&lt;br&gt;estado (programada/cancelada/atendida)&lt;br&gt;motivo" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="170" width="280" height="250" as="geometry"/>
                 </mxCell>
-                <mxCell id="factura" value="&lt;b&gt;FACTURA&lt;/b&gt;&lt;br/&gt;PK id_factura&lt;br/&gt;FK id_paciente&lt;br/&gt;FK id_cita (opcional)&lt;br/&gt;fecha_emision&lt;br/&gt;total&lt;br/&gt;estado (pendiente/pagada/anulada)&lt;br/&gt;metodo_pago" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeWidth=1;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="350" width="260" height="210" as="geometry"/>
+                <mxCell id="factura" value="&lt;b&gt;FACTURAS&lt;/b&gt;&lt;br&gt;PK id_factura&lt;br&gt;FK id_paciente&lt;br&gt;FK id_cita (opcional)&lt;br&gt;fecha_emision&lt;br&gt;total&lt;br&gt;estado (pendiente/pagada/anulada)&lt;br&gt;metodo_pago" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="405" width="260" height="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="rel_paciente_cita" value="1 a N" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;" parent="1" source="paciente" target="cita" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="rel_paciente_cita" value="(1,1)" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;" parent="1" source="paciente" target="cita" edge="1">
+                    <mxGeometry x="-0.3848" y="6" relative="1" as="geometry">
+                        <mxPoint x="1" y="1" as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="rel_medico_cita" value="1 a N" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;" parent="1" source="medico" target="especialidad" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="2" value="(0,n)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rel_paciente_cita">
+                    <mxGeometry x="0.5319" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="rel_especialidad_cita" value="N a 1" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;" parent="1" source="especialidad" target="cita" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="rel_medico_cita" value="(1,1)" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;" parent="1" source="medico" target="cita" edge="1">
+                    <mxGeometry x="-0.368" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="rel_paciente_factura" value="1 a N" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;" parent="1" source="paciente" target="factura" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="3" value="(0,n)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rel_medico_cita">
+                    <mxGeometry x="0.4848" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="rel_cita_factura" value="0..1 a N" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;dashed=1;" parent="1" source="cita" target="factura" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="rel_especialidad_cita" value="(0,n)" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;" parent="1" source="especialidad" target="cita" edge="1">
+                    <mxGeometry x="0.5" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="(1,1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rel_especialidad_cita">
+                    <mxGeometry x="-0.5029" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="rel_paciente_factura" value="(1,1)" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;" parent="1" source="paciente" target="factura" edge="1">
+                    <mxGeometry x="-0.68" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="(0,n)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rel_paciente_factura">
+                    <mxGeometry x="0.352" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="rel_cita_factura" value="(0,1)" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1;dashed=1;" parent="1" source="cita" target="factura" edge="1">
+                    <mxGeometry x="0.4975" y="6" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="(1,1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rel_cita_factura">
+                    <mxGeometry x="-0.5615" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="title_erd" value="&lt;b&gt;Modelo Entidad-Relación (ERD) - Clínica Salud Viva&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
                     <mxGeometry x="60" y="20" width="940" height="40" as="geometry"/>
